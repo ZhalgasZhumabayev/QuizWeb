@@ -11,3 +11,13 @@ export interface ITask {
   status: string,
   task_list: ITaskList
 }
+
+export interface IAuthResponse {
+  token:string
+}
+
+export interface IUser {
+  username: string,
+  password: string,
+  email: string
+}
